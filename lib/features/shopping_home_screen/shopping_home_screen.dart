@@ -25,7 +25,7 @@ class ShoppingHomeScreen extends StatelessWidget {
         "title": "Hot Offer ${index + 1}",
         "image": "assets/images/offer${index + 1}.jpg",
         "description":
-            "🔥 Hot Offer ${index + 1}: Get amazing discounts on top products today!",
+            "Hot Offer ${index + 1}: Get amazing discounts on top products today!",
       },
     );
 
@@ -40,7 +40,6 @@ class ShoppingHomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            /// 🔹 Featured Products (Horizontal PageView)
             SizedBox(
               height: 180,
               child: PageView.builder(
@@ -63,7 +62,6 @@ class ShoppingHomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            /// 🔹 Products Grid
             GridView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
@@ -124,7 +122,6 @@ class ShoppingHomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            /// 🔹 Hot Offers Section
             const Text(
               "Hot Offers",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),

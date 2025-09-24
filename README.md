@@ -1,16 +1,55 @@
-# shopping_app
+# 🛍 Flutter Shopping App  
 
-A new Flutter project.
+A simple shopping application built with **Flutter** as part of my project submission.  
+The app demonstrates clean UI design, basic navigation, and authentication flow.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Project Overview  
+This project is a shopping app that allows users to:  
+- View a welcome screen.  
+- Sign up or log in with an account.  
+- Browse shopping items.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Features
+- User Sign Up with smooth transition to Home.
+- Shopping Home Screen:
+  - **AppBar**: "Our Products".
+  - **PageView**: Horizontal scroll of featured products.
+  - **GridView**: Product cards (image, title, add-to-cart button).
+  - **SnackBar**: Confirmation when adding to cart.
+  - **Hot Offers Section**: Vertical list of special offers.
+- Local images used for products/offers. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+##  Setup Instructions  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/MohammedAkramOsama/flutter_shopping_app.git
+   cd flutter_shopping_app
+
+
+##  Screenshots
+
+### Home Screen
+<img src="assets/screenshots/home.png" width="250">
+
+### Sign Up Screen
+<img src="assets/screenshots/signup.png" width="250">
+
+### Sign In Screen
+<img src="assets/screenshots/signin.png" width="250">
+
+### Sign In Successfully Pop Up
+<img src="assets/screenshots/signin_successfully.png" width="250">
+
+### Offers Screen
+<img src="assets/screenshots/offers.png" width="250">
+
+### Our Product Screen
+<img src="assets/screenshots/ourproduct.png" width="250">
+

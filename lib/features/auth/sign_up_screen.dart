@@ -72,7 +72,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           style: AppStyles.primaryHeadlineStyle,
                         ),
                         Text(
-                          "Sign in to ShopCraft",
+                          "Sign up to ShopCraft",
                           style: AppStyles.white16w600Style.copyWith(
                             color: const Color(0xff4B5563),
                           ),
